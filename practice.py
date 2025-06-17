@@ -1,3 +1,4 @@
-station = "사당"
-
-print( station + "행 열차가 들어오고 있습니다.")
+raw_input = input("inch 단위의 숫자를 입력해주세요 : ")
+inch = int(raw_input)
+cm = inch * 2.54
+print(inch, "inch는 cm단위로", cm, "cm입니다.")
